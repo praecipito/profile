@@ -1,0 +1,103 @@
+body {
+  color: #dda15e;
+  background-color: #dfe7ce;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: 300;
+}
+
+h1, h2, h3 {
+  color: #bc6c25;
+  font-weight: 600;
+}
+
+h1 {
+  font-size: 38px;
+  line-height: 40px;
+  color: #d47e33;
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 24px;
+  color: #dda15e;
+}
+
+h3 {
+  font-size: 22px;
+  line-height: 25px;
+}
+
+a {
+  color: #dda15e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e5ba88;
+  transition: 0.3s;
+}
+
+.webpage {
+  width: 650px;
+  margin: 0 auto;
+}
+
+li {
+  list-style: none;
+  padding-left: 0px;
+  font-size: 35px;
+  display: inline-block;
+  padding: 5px 25px;
+}
+
+.general-div {
+  background: #212b0e;
+  padding: 20px 40px;
+  margin: 30px auto;
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0,0,0,.3);
+  text-align: justify;
+  text-align-last: center;
+}
+
+#linkedin-button a {
+  font-weight: 600;
+  margin: 10px;
+  background-color: #bc6c25;
+  margin: 20px 0;
+  display: inline-block;
+  color: rgba(0,0,0,.8);
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 10px 10px 30px rgba(0,0,0,.3);
+}
+
+#linkedin-button a:hover {
+  color: rgb(61, 61, 61);
+  background-color: #dda15e;
+  transition: 0.3s;
+}
+
+#profile-pic img {
+  border-radius: 50%;
+}
+
+@media (max-width: 960px) {
+  .webpage {
+    width: 600px;
+  }
+}
+
+@media (max-width: 720px) {
+  .webpage {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .webpage {
+    width: 380px;
+  }
+}
